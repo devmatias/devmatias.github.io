@@ -8,13 +8,17 @@ p {
 
 body {
     background-color: #E8D6CB;
-    margin: 3% 7%
+    margin: 3% 20%
 }
 
-.navbar {
-    padding: 2% 7%;
-    display: inline-block;
+.main {
     text-align: center;
+}
+
+
+.navbar {
+    padding: 2% 5%;
+    display: inline-block;
     width: 86%;
 }
 
@@ -31,20 +35,16 @@ body {
     font-size: 15px;
 }
 
-#nome-foto {
-    text-align: center;
-}
-
 .container {
     display: flex;
 }
 
 .foto-perfil {
     display: inline-block;
-    width: 40%;
-    text-align: center;
+    width: 35%;
     padding: 30px;
     background-color:bisque;
+    border-radius: 100%;
 }
 
 .description {
