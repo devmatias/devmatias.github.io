@@ -1,0 +1,57 @@
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #E8D6CB;
+    margin: 3% 20%
+}
+
+.main {
+    text-align: center;
+}
+
+
+.navbar {
+    padding: 2% 5%;
+    display: inline-block;
+    width: 86%;
+}
+
+.navbar a {
+    padding: 35px 105px;
+    font-size: 20px;
+}
+
+.primary-skills {
+    font-size: 20px;
+}
+
+.secondary-skills {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.foto-perfil {
+    display: inline-block;
+    width: 35%;
+    padding: 30px;
+    background-color:bisque;
+    border-radius: 100%;
+}
+
+.description {
+    display: flex;
+    padding: 30px;
+}
+
+#minha-foto {
+    border-radius: 200px;
+}

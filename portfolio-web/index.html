@@ -3,40 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Portfolio Web</title>
 </head>
 
 <body>
-    <h1>Portfolio Web</h1>
+    <h1 class="main">Portfolio Web</h1>
 
-    <h3>Índice</h3>
-    <ol>
-        <li><a href="#nome-foto">Nome e Foto</a></li>
-        <li><a href="#descricao">Sobre mim</a></li>
-        <li><a href="#competencias">Competências</a></li>
-    </ol>
-    <h2 id="nome-foto">Matias Correa Franco de Faria</h2>
-    <img id="minha-foto" src="perfil.jpeg" alt="minha foto">
-    <p><em>Uma foto básica, focada no profissionalismo.</em></p>
-    <p id="descricao"> Sou Brasileiro e moro atualmente em Brasília/DF. <br>
-        Estudante de Desenvolvimento Web pela Trybe. <br>
-        Cursando Análise de Desenvolvimento de Sistemas. <br>
-        Formado em Administração. Trabalhei durante 5 anos no Banco Santander. <br>
-        Buscando melhorar minhas competências de desenvolvedor para ingressar no mercado de trabalho.
-        Gosto muito de acessar o <a href="https://blog.betrybe.com/" target="_blank">blog</a> da trybe para me manter atualizado sobre novidades de mercado.<br><br></p>
-    <p id="competecias"> Algumas competências que tenho trabalhado:</p>
-    <ul>
-        <li><strong>HTML</strong></li> 
-        <li><strong>CSS</strong></li> 
-        <li><strong>JavaScript</strong></li> 
-        <li><strong>Git</strong></li> 
-        <li><strong>MySQL</strong></li> 
-        <li><strong>API REST</strong></li> 
-        <li><strong>Testes Unitários</strong></li> 
-    </ul>
+    <div class="navbar main">
+        <a href="#nome-foto">NOME</a>
+        <a href="#descricao">SOBRE MIM</a>
+        <a href="#competencias">COMPETÊNCIAS</a>
+    </div>
 
-    <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="dev">
-    <p><a href="#minha-foto">Minha foto</a></p>
+    <div>
+        <h2 id="nome-foto" class="main">Matias Correa Franco de Faria</h2>
+    </div>
+    <div class="container">
+        <div class="foto-perfil main">
+            <img id="minha-foto" src="perfil.jpeg" alt="minha foto">
+            <p><em>Uma foto básica, focada no profissionalismo.</em></p>
+        </div>
+        <div class="description">
+            <p id="descricao"> Sou <strong>Brasileiro</strong> e moro atualmente em <strong>Brasília/DF</strong>. <br>
+                Estudante de Desenvolvimento Web pela <strong>Trybe</strong>. <br>
+                Cursando Análise de Desenvolvimento de Sistemas. <br>
+                Formado em Administração. Trabalhei durante 5 anos no Banco Santander. <br>
+                Buscando melhorar minhas competências de desenvolvedor para ingressar no mercado de trabalho. <br>
+                Gosto muito de acessar o <a href="https://blog.betrybe.com/" target="_blank">blog</a> da trybe para me
+                manter
+                atualizado sobre novidades de mercado.<br><br></p>
+        </div>
+    </div>
+    <div>
+        <p id="competencias"> Algumas competências que tenho trabalhado:</p>
+        <ul>
+            <li class="primary-skills">HTML</li>
+            <li class="primary-skills">CSS</li>
+            <li class="primary-skills">JavaScript</li>
+            <li class="primary-skills">Git</li>
+            <li class="secondary-skills">MySQL</li>
+            <li class="secondary-skills">API REST</li>
+            <li class="secondary-skills">Testes Unitários</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg"
+            alt="dev">
+        <p><a href="#minha-foto">Minha foto</a></p>
+    </div>
+
 </body>
 
 </html>
